@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Inter/static/Inter-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Inter/static/Inter-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+}
+/*  */
+@font-face {
+  font-family: 'Titillium_Web';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Titillium_Web/Titillium_Web-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Titillium_Web';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Titillium_Web/Titillium_Web-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Titillium_Web';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Titillium_Web/Titillium_Web-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Titillium_Web';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Titillium_Web/Titillium_Web-Bold.ttf') format('truetype');
+}
+

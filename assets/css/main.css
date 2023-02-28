@@ -1,3 +1,59 @@
+@import '@/assets/css/fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply font-body;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-body,
+.text-body-bold {
+  color: #111633;
+  font-family: 'Titillium Web';
+}
+h1 {
+  font-size: 95px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 59px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.text-body,
+.text-body-bold,
+a,
+NuxtLink {
+  font-family: 'Inter';
+}
+.text-body {
+  font-size: 16px;
+  font-weight: 600;
+}
+.text-body-bold {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a,
+NuxtLink {
+  font-size: 14px;
+  color: #6861e4;
+  font-weight: 600;
+}
