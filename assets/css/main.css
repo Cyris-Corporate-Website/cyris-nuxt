@@ -14,7 +14,7 @@ h5,
 h6,
 .text-body,
 .text-body-bold {
-  color: #111633;
+  /* color: #111633; */
   font-family: 'Titillium Web';
 }
 h1 {

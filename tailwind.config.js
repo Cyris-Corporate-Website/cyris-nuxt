@@ -6,6 +6,9 @@ module.exports = {
         heading: ['"Titillium Web"', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
       },
+      backgroundImage: {
+        home: "url('/assets/images/home/section1/header.png')",
+      },
       colors: {
         // primary: '',
         secondaryGreen: '#05C583',
@@ -23,6 +26,9 @@ module.exports = {
         componentsGray4: '#CBCFD6',
         componentsGray5: '#EFF0F1',
         componentsGray6: '#F8F9FB',
+      },
+      maxWidth: {
+        layoutWidth: '1140px',
       },
     },
   },
