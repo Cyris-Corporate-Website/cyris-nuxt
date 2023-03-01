@@ -1,8 +1,7 @@
 <template>
   <layout>
-    <!-- section-1 -->
     <home-layout class="bg-home bg-no-repeat">
-      <section1 />
+      <landing></landing>
     </home-layout>
     <!-- section-8 -->
     <home-layout>
@@ -13,6 +12,6 @@
 <script setup>
 import layout from '@/layouts/layout.vue'
 import homeLayout from '@/layouts/homeLayout.vue'
-import Section1 from '@/components/parts/HomeSections/Section1.vue'
-import Footer from '@/components/parts/Footer.vue'
+import Footer from '@/components/shared/Footer.vue'
+import Landing from '@/components/sections/home/Landing.vue';
 </script>

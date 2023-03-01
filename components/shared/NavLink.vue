@@ -1,6 +1,6 @@
 <template>
   
-  <p class="hover:text-textLightGreen cursor-pointer">
+  <p class="hover:text-jade-100 cursor-pointer">
     <slot />
   </p>
 </template>

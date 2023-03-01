@@ -11,9 +11,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.text-body,
-.text-body-bold {
+h6 {
   /* color: #111633; */
   font-family: 'Titillium Web';
 }
@@ -36,19 +34,19 @@ h4 {
   font-size: 22px;
   font-weight: 600;
 }
-.text-body,
-.text-body-bold,
+.font-body,
+.font-body-bold,
 a,
 NuxtLink {
   font-family: 'Inter';
 }
-.text-body {
-  font-size: 16px;
-  font-weight: 600;
-}
-.text-body-bold {
+.font-body {
   font-size: 14px;
   font-weight: 400;
+}
+.font-body-bold {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 a,

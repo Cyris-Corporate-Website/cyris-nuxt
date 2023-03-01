@@ -16,5 +16,5 @@
   </div>
 </template>
 <script setup>
-import NavLink from './HomeSections/NavLink.vue'
+import NavLink from '@/components/shared/NavLink.vue'
 </script>
