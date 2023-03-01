@@ -30,7 +30,7 @@ module.exports = {
       jade: {
         100: '#30E87A',
         200: '#05C583',
-        300: '#049C67'
+        300: '#049C67',
       },
       text: {
         100: '#B5BFD5',
@@ -49,6 +49,10 @@ module.exports = {
     },
     borderRadius: {
       default: '12px',
+    },
+    padding: {
+      11: '11px',
+      15: '15px',
     },
   },
   plugins: [],

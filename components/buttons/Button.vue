@@ -43,7 +43,7 @@ export default {
     }
     const disabledClass = () => {
       // should be less than 40
-      if (disabled.value) classes.value.push('opacity-40 ')
+      if (disabled.value) classes.value.push('opacity-40 cursor-not-allowed ')
     }
 
     const applyClasses = () => {

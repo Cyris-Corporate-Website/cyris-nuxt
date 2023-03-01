@@ -1,6 +1,7 @@
 <template>
   <layout>
-    <home-layout class="bg-home bg-no-repeat">
+    <!-- bg-home -->
+    <home-layout class=" bg-no-repeat">
       <landing></landing>
     </home-layout>
     <!-- section-8 -->
