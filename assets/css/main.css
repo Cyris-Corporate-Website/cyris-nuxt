@@ -35,7 +35,7 @@ h4 {
   font-weight: 600;
 }
 .font-body,
-.font-body-bold,
+.font-body-semi,
 a,
 NuxtLink {
   font-family: 'Inter';
@@ -44,7 +44,7 @@ NuxtLink {
   font-size: 14px;
   font-weight: 400;
 }
-.font-body-bold {
+.font-body-semi {
   font-size: 16px;
   font-weight: 600;
 }

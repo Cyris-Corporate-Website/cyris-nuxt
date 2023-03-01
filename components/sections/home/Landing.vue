@@ -16,7 +16,7 @@
           into <span class="text-jade-100">the Future</span>
         </h1>
 
-        <p class="font-body text-text-100">
+        <p class="font-body-semi text-text-100">
           All-in-one payment processing for Financial institutions, Electronic
           Money Institution (EMI) and progressive Fintech companies.
         </p>

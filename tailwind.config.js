@@ -12,6 +12,13 @@ module.exports = {
       maxWidth: {
         layoutWidth: '1140px',
       },
+      width: {
+        180: '180px',
+      },
+      height: {
+        55: '55px',
+        50: '50px',
+      },
     },
     colors: {
       white: '#fff',
@@ -21,10 +28,9 @@ module.exports = {
       honey: '#FEC400',
       violet: '#6861E4',
       jade: {
-        // hovered text
         100: '#30E87A',
-        // secondary text
         200: '#05C583',
+        300: '#049C67'
       },
       text: {
         100: '#B5BFD5',
@@ -40,6 +46,9 @@ module.exports = {
         500: '#59616F',
         600: '#01042B',
       },
+    },
+    borderRadius: {
+      default: '12px',
     },
   },
   plugins: [],
