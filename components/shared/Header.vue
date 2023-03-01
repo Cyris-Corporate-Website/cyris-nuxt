@@ -14,8 +14,6 @@
         <Button variant="secondary">Contact us</Button>
       </div>
     </nav>
-    <Input type="text" placeholder="PPlaceholding" :disabled="false"></Input>
-    <Dropdown></Dropdown>
   </div>
 </template>
 <script setup>
@@ -23,4 +21,5 @@ import NavLink from '@/components/shared/NavLink.vue'
 import Button from '@/components/buttons/Button.vue'
 import Input from '@/components/forms/Input.vue'
 import Dropdown from '@/components/forms/Dropdown.vue'
+import Checkbox from '@/components/elements/Checkbox.vue'
 </script>
