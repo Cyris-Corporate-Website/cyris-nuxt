@@ -7,12 +7,12 @@ module.exports = {
         body: ['Inter', 'sans-serif'],
       },
       backgroundImage: {
-        home: "url('/assets/images/home/landing/bg.png')",
+        home: "url('/assets/images/home/bg.png')",
       },
       maxWidth: {
         layoutWidth: '1140px',
       },
-      width: {
+      minWidth: {
         180: '180px',
       },
       height: {

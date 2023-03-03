@@ -1,14 +1,7 @@
 <template>
-  <div style="height: 867px">
+  <div>
     <Header class="absolute top-14" />
-    <div
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 1000px;
-      "
-    >
+    <div class="flex justify-center items-center h-screen">
       <div>
         <h1 class="font-semibold">
           Bringing<br />
@@ -23,6 +16,12 @@
       </div>
       <div>
         <!-- card -->
+        <img
+          width="200px"
+          height="200px"
+          src="@/assets/images/home/Developer.png"
+          alt=""
+        />
       </div>
     </div>
   </div>

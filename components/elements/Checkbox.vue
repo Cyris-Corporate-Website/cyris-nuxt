@@ -1,7 +1,7 @@
 <template>
   <div>
     <input
-      :class="classes"
+      :class="disabledClass[disabled]"
       type="checkbox"
       :disabled="disabled"
       :required="required"
@@ -10,31 +10,10 @@
   </div>
 </template>
 
-<script>
-import { ref, onMounted } from 'vue'
-
-export default {
-  props: ['disabled', 'required'],
-  setup(props) {
-    const { disabled, required } = toRefs(props)
-    const classes = ref([])
-    const error = ref(false)
-
-    onMounted(() => {
-      applyClasses()
-    })
-
-    const disabledClass = () => {
-      if (disabled.value) classes.value.push('bg-gray-200 cursor-not-allowed ')
-    }
-
-    const applyClasses = () => {
-      disabledClass()
-    }
-    return {
-      applyClasses,
-      classes,
-    }
-  },
+<script setup>
+const props = defineProps(['disabled', 'required'])
+const disabledClass = {
+  undefined: '',
+  true: 'bg-gray-200 cursor-not-allowed',
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <input
-      :class="classes"
+      :class="disabledClass[disabled]"
       :type="type"
       :disabled="disabled"
       :required="required"
@@ -11,35 +11,13 @@
   </div>
 </template>
 
-<script>
-import { ref, onMounted } from 'vue'
-
-export default {
-  props: ['type', 'disabled', 'placeholder', 'required'],
-  setup(props) {
-    const { type, disabled, placeholder, required } = toRefs(props)
-    const classes = ref([])
-    const error = ref(false)
-
-    onMounted(() => {
-      applyClasses()
-    })
-
-    const disabledClass = () => {
-      if (disabled.value) classes.value.push('bg-gray-200 cursor-not-allowed ')
-    }
-    const applyError = () => {
-      if (error.value) classes.value.push('border border-raspberry ')
-    }
-
-    const applyClasses = () => {
-      disabledClass()
-      applyError()
-    }
-    return {
-      applyClasses,
-      classes,
-    }
-  },
+<script setup>
+const props = defineProps(['type', 'disabled', 'placeholder', 'required'])
+const disabledClass = {
+  undefined: '',
+  true: 'bg-gray-200 cursor-not-allowed',
+}
+const errorClass = {
+  true: 'border border-raspberry',
 }
 </script>

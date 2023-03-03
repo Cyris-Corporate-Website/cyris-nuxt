@@ -62,7 +62,7 @@ input[type='checkbox'] {
   /* Remove most all native input styles */
   appearance: none;
   /* For iOS < 15 */
-  background-color: #05C583;
+  background-color: #05c583;
   /* Not removed via appearance */
 
   font: inherit;
@@ -96,4 +96,13 @@ input[type='checkbox']::before {
 
 input[type='checkbox']:checked::before {
   transform: scale(1);
+}
+
+.bg-mask {
+  background: url('@/assets/images/home/bg-mask.png') no-repeat;
+  width: 1920px;
+  height: 867px;  background: transparent linear-gradient(180deg, #048ef8b8 0%, #05c583 100%) 0%
+    0% no-repeat padding-box;
+  mix-blend-mode: hue;
+  opacity: 1;
 }
