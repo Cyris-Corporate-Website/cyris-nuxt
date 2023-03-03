@@ -20,13 +20,12 @@ const buttonClass = {
   undefined: 'bg-jade-200 hover:bg-jade-300 text-white',
   primary: 'bg-jade-200 hover:bg-jade-300 text-white',
   secondary: 'bg-white text-text-300 border border-gray-600 hover:border-2',
-  ghost: 'text-white text-text-300 border border-white hover:border-2',
-  transparent: 'bg-transparent',
+  ghost: 'text-text-50 border border-white hover:border-2',
 }
 const buttonHeight = {
-  undefined: 'min-w-180 h-55',
-  big: 'min-w-180 h-55',
-  medium: 'min-w-180 h-50',
+  undefined: 'min-w-150 h-50',
+  big: 'min-w-150 h-55',
+  medium: 'min-w-150 h-50',
 }
 const disabledClass = {
   undefined: '',

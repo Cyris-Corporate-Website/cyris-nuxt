@@ -14,6 +14,7 @@ module.exports = {
       },
       minWidth: {
         180: '180px',
+        150: '150px',
       },
       height: {
         55: '55px',
@@ -33,6 +34,8 @@ module.exports = {
         300: '#049C67',
       },
       text: {
+        50: '#FCFCFC',
+        55: '#CBCFD6',
         100: '#B5BFD5',
         200: '#59616F',
         300: '#111633',
@@ -41,6 +44,7 @@ module.exports = {
       gray: {
         100: '#F8F9FB',
         200: '#EFF0F1',
+        250: '#EBF0F8',
         300: '#CBCFD6',
         400: '#9AA7B7',
         500: '#59616F',

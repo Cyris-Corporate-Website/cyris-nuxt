@@ -6,7 +6,7 @@
       :disabled="disabled"
       :required="required"
       :placeholder="placeholder"
-      class="rounded-default font-body border border-gray-400 text-text-300 py-11 px-15 focus:border focus:border-gray-600 focus:outline-none"
+      class="rounded-default font-body-regular border border-gray-400 text-text-300 py-11 px-15 focus:border focus:border-gray-600 focus:outline-none"
     />
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   
-  <p class="hover:text-jade-100 cursor-pointer">
+  <NuxtLink class="hover:text-jade-100 cursor-pointer">
     <slot />
-  </p>
+  </NuxtLink>
 </template>
 <script setup></script>
