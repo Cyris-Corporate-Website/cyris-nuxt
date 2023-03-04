@@ -22,13 +22,13 @@
           alt=""
         />
         <div class="absolute bottom-12 mx-12 space-y-6">
-          <h6 class="text-white">
+          <!-- <h6 class="text-white">
             Extend your payments reach and streamline costs,<br />
             connect with multiple national and international<br />
             networks, channels and acquirers and authorize<br />
             operations in real time.
-          </h6>
-          <Button variant="ghost"> Learn more </Button>
+          </h6> -->
+          <BaseButton variant="ghost"> Learn more </BaseButton>
         </div>
       </div>
     </div>
@@ -36,5 +36,4 @@
 </template>
 <script setup>
 import SubHeading from '@/components/shared/SubHeading.vue'
-import Button from '~~/components/buttons/Button.vue'
 </script>

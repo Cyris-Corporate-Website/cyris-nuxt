@@ -1,5 +1,4 @@
 <template>
-  <layout>
     <home-layout class="bg-home bg-no-repeat h-screen w-full">
       <landing />
     </home-layout>
@@ -21,10 +20,8 @@
     <!-- <home-layout>
       <Footer />
     </home-layout> -->
-  </layout>
 </template>
 <script setup>
-import layout from '@/layouts/layout.vue'
 import homeLayout from '@/layouts/homeLayout.vue'
 import Footer from '@/components/shared/Footer.vue'
 import Landing from '@/components/sections/home/Landing.vue'

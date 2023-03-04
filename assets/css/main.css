@@ -5,14 +5,14 @@
 
 html {
   @apply font-body;
+  font-size: 14px; /* 14px for screens below 1920px width */
+  /* font-size: 16px;  16px for screens above 1920px width */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Titillium Web';
+html,
+body,
+#__nuxt {
+  height: 100%;
 }
 h1 {
   /* 59px */

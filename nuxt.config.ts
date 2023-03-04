@@ -9,4 +9,9 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/css/main.css'],
+  components: [
+    { path: '~/components/common', prefix: 'Common' },
+    { path: '~/components/base', prefix: 'Base' },
+    '~/components'
+  ]
 })

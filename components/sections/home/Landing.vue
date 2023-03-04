@@ -1,6 +1,5 @@
 <template>
-  <div class="relative">
-    <Header class="absolute top-12" />
+  <div>
     <div class="">
       <div
         class="flex justify-between items-center my-auto mx-0"
@@ -21,7 +20,7 @@
             institutions, Electronic Money Institution<br />
             (EMI) and progressive Fintech companies.
           </p>
-          <Button variant="ghost">Get Started</Button>
+          <BaseButton variant="ghost">Get Started</BaseButton>
         </div>
         <div>
           <!-- card -->
@@ -35,9 +34,3 @@
     </div>
   </div>
 </template>
-<script setup>
-import Header from '@/components/shared/Header.vue'
-import Button from '@/components/buttons/Button.vue'
-// import Dropdown from '@/components/forms/Dropdown.vue'
-// import Checkbox from '@/components/elements/Checkbox.vue'
-</script>

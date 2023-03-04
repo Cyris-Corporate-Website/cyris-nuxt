@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
+    fontFamily: {
+      sans: ['Titillium', ...defaultTheme.fontFamily.sans],
+    },
     extend: {
       fontFamily: {
-        heading: ['"Titillium Web"', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
       },
       backgroundImage: {
@@ -19,6 +24,9 @@ module.exports = {
       height: {
         55: '55px',
         50: '50px',
+      },
+      borderRadius: {
+        default: '12px',
       },
     },
     colors: {
@@ -51,13 +59,11 @@ module.exports = {
         600: '#01042B',
       },
     },
-    borderRadius: {
-      default: '12px',
-    },
-    padding: {
-      11: '11px',
-      15: '15px',
-    },
+
+    // padding: {
+    // 11: '11px',
+    // 15: '15px',
+    // },
   },
   plugins: [],
   content: [
