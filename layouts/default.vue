@@ -4,7 +4,7 @@
       <CommonHeader class="absolute top-11 max-w-layoutWidth" />
     </div>
     <slot />
-    <div class="flex justify-center">
+    <div class="flex justify-center bg-bgFooter">
       <CommonFooter class="max-w-layoutWidth" />
     </div>
   </div>

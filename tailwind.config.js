@@ -118,7 +118,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        home: "url('/assets/images/home/bg.png')",
+        bgTrustedPartners: "url('/assets/images/home/bg/home/bg1.png')",
+        bgKeySolutions: "url('/assets/images/home/bg/home/bg2.png')",
+        bgDevFriendly: "url('/assets/images/home/bg/home/bg3.png')",
+        bgTopChoice: "url('/assets/images/home/bg/home/flexible.png')",
+        bgCompleteSuite: "url('/assets/images/home/bg/home/bg4.png')",
+        bg3steps: "url('/assets/images/home/bg/home/bg5.png')",
+        bgFooter: "url('/assets/images/home/bg/home/bg-footer.png')",
       },
       maxWidth: {
         layoutWidth: '1140px',
