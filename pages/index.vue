@@ -1,8 +1,10 @@
 <template>
-  <!-- bg-home -->
-  <section-container class="bg-home bg-no-repeat w-full">
-    <landing />
-  </section-container>
+  <!-- class="bg-home bg-no-repeat w-full" -->
+  <video-container class="relative">
+    <div class="text-white flex justify-center">
+      <landing class="absolute top-0 z-50 my-0 mx-auto" />
+    </div>
+  </video-container>
   <section-container class="bg-gray-600 w-full">
     <trusted-partners />
   </section-container>
@@ -27,4 +29,5 @@ import Landing from '@/components/sections/home/Landing.vue'
 import TrustedPartners from '@/components/sections/home/TrustedPartners.vue'
 import KeySolutions from '@/components/sections/home/keySolutions/KeySolutions.vue'
 import sectionContainer from '@/components/sections/sectionContainer.vue'
+import videoContainer from '@/components/sections/videoContainer.vue'
 </script>

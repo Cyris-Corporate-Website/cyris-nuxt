@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full flex justify-between items-center text-white">
+  <nav class="w-full flex justify-between items-center text-white z-50">
     <div class="flex justify-between items-center space-x-8">
       <img src="@/assets/images/logo.svg" alt="logo" class="mr-5" />
       <common-nav-link>Services</common-nav-link>
