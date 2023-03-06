@@ -1,9 +1,7 @@
 <template>
   <!-- class="bg-home bg-no-repeat w-full" -->
   <video-container class="relative">
-    <div class="text-white flex justify-center">
-      <landing class="absolute top-0 z-50 my-0 mx-auto" />
-    </div>
+    <landing class="absolute top-0 z-50" />
   </video-container>
   <section-container class="bg-gray-600 w-full">
     <trusted-partners />

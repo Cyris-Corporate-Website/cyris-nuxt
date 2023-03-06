@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-between items-center my-auto mx-0"
+    class="flex justify-between items-center my-auto max-w-layoutWidth w-full"
     style="height: 867px"
   >
     <div>
