@@ -7,7 +7,7 @@
       :disabled="disabled"
       :required="required"
       :placeholder="placeholder"
-      class="rounded-lg font-body-regular border border-gray-400 text-text-300 py-1 px-3 focus:border focus:border-gray-600 focus:outline-none"
+      class="rounded-lg text-sm border border-gray-400 text-text-300 py-1 px-3 focus:border focus:border-gray-600 focus:outline-none"
     />
   </div>
 </template>
