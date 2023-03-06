@@ -2,23 +2,22 @@
   <video-container class="relative">
     <landing class="absolute top-0 z-50" />
   </video-container>
-  <section-container class="bg-bgTrustedPartners">
+  <section-container class="bg-bgTrustedPartners bg-cover bg-no-repeat">
     <trusted-partners />
   </section-container>
-  <section-container class="bg-bgKeySolutions">
+  <section-container class="bg-bgKeySolutions bg-cover bg-no-repeat">
     <key-solutions />
   </section-container>
-  <section-container class="bg-bgDevFriendly">
+  <section-container class="bg-bgDevFriendly bg-cover bg-no-repeat">
     <dev-friendly />
   </section-container>
-  <!--  -->
-  <section-container class="bg-bgTopChoice">
+  <section-container class="bg-bgTopChoice bg-cover bg-no-repeat">
     <top-choice />
   </section-container>
-  <section-container class="bg-bgCompleteSuite">
+  <section-container class="bg-bgCompleteSuite bg-no-repeat">
     <suite-of-services />
   </section-container>
-  <section-container class="bg-bg3steps">
+  <section-container class="bg-bg3steps bg-no-repeat">
     <simple-steps />
   </section-container>
 </template>
