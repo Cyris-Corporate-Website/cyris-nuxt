@@ -1,5 +1,3 @@
-import Partners from '~~/components/shared/Partners.vue';
-
 <template>
   <div class="pt-12 pb-36">
     <div class="mb-36">
@@ -32,5 +30,5 @@ import Partners from '~~/components/shared/Partners.vue';
   </div>
 </template>
 <script setup>
-import Partners from '@/components/shared/Partners.vue'
+import Partners from '@/components/sections/home/components/Partners.vue'
 </script>

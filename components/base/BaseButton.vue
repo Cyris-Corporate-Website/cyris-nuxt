@@ -6,7 +6,7 @@
       "
       @click="nice()"
       :disabled="disabled"
-      class="rounded-default text-xs font-semibold font-body hover:cursor-pointer"
+      class="rounded-default text-links font-semibold font-body hover:cursor-pointer"
     >
       <slot />
     </button>

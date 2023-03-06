@@ -36,6 +36,6 @@
   </div>
 </template>
 <script setup>
-import SubHeading from '@/components/shared/SubHeading.vue'
+import SubHeading from '@/components/sections/home/components/SubHeading.vue'
 import SolutionHeading from './SolutionHeading.vue'
 </script>

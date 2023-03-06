@@ -1,6 +1,8 @@
 <template>
   <div class="w-full h-full relative">
-    <CommonHeader />
+    <div class="flex justify-center">
+      <CommonHeader class="absolute top-11 max-w-layoutWidth" />
+    </div>
     <slot />
   </div>
 </template>
