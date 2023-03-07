@@ -4,7 +4,7 @@
       autoplay
       loop
       muted
-      class="z-10 object-cover rounded-3xl"
+      class="z-10 object-cover rounded-3xl w-screen"
       style="height: 418px"
     >
       <source src="@/assets/videos/contact-us.mp4" type="video/mp4" />

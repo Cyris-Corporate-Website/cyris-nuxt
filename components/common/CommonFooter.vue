@@ -4,8 +4,8 @@
       <div>
         <common-logo></common-logo>
         <p class="text-xxxs text-[#778CAC]">© 2022 All rights reserved</p>
-        <div class="flex items-start space-x-4 mt-3.5 mb-6">
-          <h2 class="text-sm font-semibold font-sans text-white">
+        <div class="flex items-baseline space-x-4 mt-3.5 mb-6">
+          <h2 class="text-xs font-semibold font-sans text-white">
             Follow us on
           </h2>
           <div class="flex space-x-4 items-center">
@@ -71,13 +71,7 @@
     </div>
   </div>
 </template>
+
 <script setup>
 import Partners from '@/components/sections/home/components/Partners.vue'
 </script>
-<style scoped>
-h1 {
-  margin: 15px 0;
-  color: #cbcfd6;
-  font-size: 14px;
-}
-</style>

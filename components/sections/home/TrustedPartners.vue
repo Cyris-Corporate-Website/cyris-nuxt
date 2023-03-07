@@ -12,12 +12,12 @@
         alt=""
       />
       <div class="space-y-5">
-        <h1 class="text-xxl">
+        <h2 class="text-xxl">
           Legacy payment<br />
           solutions are slow,<br />
           rigid, and lack fraud<br />
           controls.
-        </h1>
+        </h2>
 
         <p class="text-sm font-body text-text-55 mt-5">
           With our extensive expertise in modernising<br />

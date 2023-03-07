@@ -16,6 +16,12 @@ body,
 #__nuxt {
   height: 100%;
 }
+.transparent-bg {
+  background-color: white;
+  opacity: 10%;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
 
 /* checkbox */
 input[type='checkbox'] {

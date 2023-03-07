@@ -1,10 +1,10 @@
 <template>
   <div class="text-gray-600 pt-36 pb-40">
-    <h1 class="text-center mb-24 text-xxl">
+    <h2 class="text-center mb-24 text-xxl">
       Here are the <span class="text-jade-100 font-bold">key solutions</span
       ><br />
       that Cyris provides to its partners
-    </h1>
+    </h2>
     <div class="flex justify-between items-start">
       <div class="space-y-20">
         <sub-heading color="black">Explore Our Solutions</sub-heading>
