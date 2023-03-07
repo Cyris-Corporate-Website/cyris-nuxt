@@ -42,8 +42,9 @@
       </div>
       <div class="space-y-3.5">
         <h2 class="text-sm font-semibold font-sans text-white">Company</h2>
-        <h6>API</h6>
-        <h6>CMS</h6>
+        <h6>About Cyris</h6>
+        <h6>Careers</h6>
+        <h6>News</h6>
       </div>
       <div class="space-y-3.5">
         <h2 class="text-sm font-semibold font-sans text-white">

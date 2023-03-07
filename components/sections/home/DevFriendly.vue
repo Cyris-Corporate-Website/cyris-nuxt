@@ -38,7 +38,7 @@
         <div class="relative">
           <div
             class="relative transparent-bg rounded-4xl"
-            style="min-height: 830px"
+            style="min-height: 830px; max-width: 555px"
           ></div>
           <div class="absolute top-0 p-12" style="min-height: 830px">
             <div class="flex space-x-4 mb-4">
@@ -66,7 +66,7 @@
               authorized in real time.
             </p>
             <CommonReadMore text="Read More" />
-            <div class="absolute bottom-0">
+            <div class="absolute bottom-0 flex justify-center">
               <img src="@/assets/images/home/API.png" alt="" />
             </div>
           </div>
@@ -74,7 +74,7 @@
         <!--  -->
         <div
           class="bg-violet relative p-12 rounded-4xl"
-          style="min-height: 830px"
+          style="min-height: 830px; max-width: 555px"
         >
           <div class="flex space-x-4 mb-4">
             <img

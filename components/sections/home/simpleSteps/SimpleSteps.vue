@@ -1,13 +1,5 @@
 <template>
-  <div
-    class="flex justify-center"
-    style="
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 1128px;
-    "
-  >
+  <div class="flex justify-center items-center" style="height: 1128px">
     <div>
       <h2 class="text-center text-lg text-black">
         Start innovating your payments with us.<br />
