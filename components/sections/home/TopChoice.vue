@@ -8,7 +8,7 @@
       height: 717px;
     "
   >
-    <h2 class="text-xxl text-black">
+    <h2 class="text-xxl text-gray-600">
       We are flexible and scalable to meet<br />
       your unique needs. Explore our<br />
       features to understand why Cyris is a<br />

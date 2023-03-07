@@ -1,14 +1,18 @@
 <template>
   <div class="flex justify-center items-center" style="height: 1128px">
     <div>
-      <h2 class="text-center text-lg text-black">
-        Start innovating your payments with us.<br />
-        Follow the
-        <span class="text-jade-100 font-bold">3 simple</span> and<br />
-        revolutionize your business
-      </h2>
-      <div class="my-12">
-        <StaticStepper />
+      <div class="my-0 mx-auto" style="max-width: 870px">
+        <div>
+          <h2 class="text-center text-lg text-gray-600">
+            Start innovating your payments with us.<br />
+            Follow the
+            <span class="text-jade-100 font-bold">3 simple</span> and<br />
+            revolutionize your business
+          </h2>
+          <div class="my-12">
+            <StaticStepper />
+          </div>
+        </div>
       </div>
       <div class="relative">
         <ball-container />

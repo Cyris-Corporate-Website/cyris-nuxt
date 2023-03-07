@@ -7,8 +7,8 @@
 <script setup>
 const props = defineProps(['color'])
 const textColor= {
-  undefined: 'text-black',
-  black: 'text-black',
+  undefined: 'text-gray-600',
+  black: 'text-gray-600',
   white: 'text-white',
 }
 </script>

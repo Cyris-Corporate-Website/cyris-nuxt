@@ -22,6 +22,12 @@ body,
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
 }
+.suite-card {
+  background-color: white;
+  opacity: 4%;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
 
 /* checkbox */
 input[type='checkbox'] {

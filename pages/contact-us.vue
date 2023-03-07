@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-12 h-full w-full">
-    <div class="col-span-4 bg-black flex items-center justify-center">
+    <div class="col-span-4 bg-gray-600 flex items-center justify-center">
       <CommonLogo />
     </div>
     <div class="col-span-8 flex flex-col p-8 items-start justify-center">
