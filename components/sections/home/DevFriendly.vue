@@ -41,7 +41,10 @@
             style="min-height: 830px; max-width: 555px"
           ></div>
           <div class="flex justify-center">
-            <div class="absolute top-0 py-12" style="min-height: 830px">
+            <div
+              class="absolute top-0 pt-12"
+              style="min-height: 830px; min-width: 471px"
+            >
               <div>
                 <div class="flex space-x-4 mb-4">
                   <img

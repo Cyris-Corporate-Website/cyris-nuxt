@@ -1,13 +1,13 @@
 <template>
   <div class="relative">
+    <!-- w-280px -->
     <div
       class="suite-card rounded-3xl"
-      style="min-height: 400px; min-width: 280px"
+      style="min-height: 400px; min-width: 245px"
     ></div>
     <div
-      class="absolute h-full top-0 flex flex-col justify-between p-7 items-start font-body font-semibold rounded-3xl"
+      class="absolute h-full w-full top-0 flex flex-col justify-between p-7 items-start font-body font-semibold rounded-3xl"
       :class="bgColor[text]"
-      style="min-width: 280px"
     >
       <slot />
       <p style="max-width: 8rem">{{ text }}</p>
