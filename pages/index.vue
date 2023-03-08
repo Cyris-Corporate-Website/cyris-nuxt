@@ -23,12 +23,12 @@
 </template>
 
 <script setup>
-import Landing from '@/components/sections/home/Landing.vue'
+import Landing from '@/components/sections/home/Landing/Landing.vue'
 import TrustedPartners from '@/components/sections/home/TrustedPartners.vue'
 import DevFriendly from '@/components/sections/home/DevFriendly.vue'
-import TopChoice from '~~/components/sections/home/TopChoice.vue'
-import SuiteOfServices from '~~/components/sections/home/SuiteOfServices/SuiteOfServices.vue'
-import SimpleSteps from '~~/components/sections/home/simpleSteps/SimpleSteps.vue'
+import TopChoice from '@/components/sections/home/TopChoice.vue'
+import SuiteOfServices from '@/components/sections/home/SuiteOfServices/SuiteOfServices.vue'
+import SimpleSteps from '@/components/sections/home/simpleSteps/SimpleSteps.vue'
 import KeySolutions from '@/components/sections/home/keySolutions/KeySolutions.vue'
 import sectionContainer from '@/components/sections/sectionContainer.vue'
 import videoContainer from '@/components/sections/videoContainer.vue'

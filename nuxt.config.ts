@@ -12,6 +12,6 @@ export default defineNuxtConfig({
   components: [
     { path: '~/components/common', prefix: 'Common' },
     { path: '~/components/base', prefix: 'Base' },
-    '~/components'
-  ]
+    '~/components',
+  ],
 })
