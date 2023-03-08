@@ -20,18 +20,20 @@
       </p>
       <BaseButton variant="ghost">Get Started</BaseButton>
     </div>
-    <div class="relative" >
+    <div class="relative">
       <!-- <CodeAnimation /> -->
       <img
         style="height: 440px; width: 275px; backdrop-filter: blur(4px)"
         src="@/assets/images/home/home-card.png"
         alt=""
       />
-      <lottie
-        class="lottie"
-        :options="defaultOptions"
-        v-on:animCreated="handleAnimation"
-      />
+      <div class="cube">
+        <lottie
+          class="lottie"
+          :options="defaultOptions"
+          v-on:animCreated="handleAnimation"
+        />
+      </div>
     </div>
   </div>
 </template>
