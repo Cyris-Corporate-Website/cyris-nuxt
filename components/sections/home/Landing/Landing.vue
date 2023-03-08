@@ -20,15 +20,15 @@
       </p>
       <BaseButton variant="ghost">Get Started</BaseButton>
     </div>
-    <div class="relative">
+    <div class="relative" >
       <!-- <CodeAnimation /> -->
       <img
-        style="height: 440px; width: 275px"
+        style="height: 440px; width: 275px; backdrop-filter: blur(4px)"
         src="@/assets/images/home/home-card.png"
         alt=""
       />
       <lottie
-        class="absolute bottom-0 right-20 skew-y-6 bg-raspberry opacity-80"
+        class="lottie"
         :options="defaultOptions"
         v-on:animCreated="handleAnimation"
       />
@@ -38,7 +38,7 @@
 <script>
 import CodeAnimation from './CodeAnimation.vue'
 import Lottie from '@/components/Lottie.vue'
-import * as animationData from '@/assets/animations/new.json'
+import * as animationData from '@/assets/animations/coding-screen.json'
 
 export default {
   components: {
@@ -57,15 +57,3 @@ export default {
   },
 }
 </script>
-
-<style>
-body {
-  background-color: #002c3e;
-}
-a {
-  position: absolute;
-  color: #fff;
-  top: 40px;
-  right: 40px;
-}
-</style>
