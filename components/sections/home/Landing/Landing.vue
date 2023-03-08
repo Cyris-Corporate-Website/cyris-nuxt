@@ -21,7 +21,6 @@
       <BaseButton variant="ghost">Get Started</BaseButton>
     </div>
     <div class="relative">
-      <!-- <CodeAnimation /> -->
       <img
         style="height: 440px; width: 275px; backdrop-filter: blur(4px)"
         src="@/assets/images/home/home-card.png"
@@ -38,7 +37,6 @@
   </div>
 </template>
 <script>
-import CodeAnimation from './CodeAnimation.vue'
 import Lottie from '@/components/Lottie.vue'
 import * as animationData from '@/assets/animations/coding-screen.json'
 
