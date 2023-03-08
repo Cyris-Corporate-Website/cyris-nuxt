@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col-reverse sm:flex justify-between items-center my-auto max-w-layoutWidth w-full min-h-[867px]"
+    class="flex flex-col-reverse sm:flex-row justify-between items-center my-auto max-w-layoutWidth w-full min-h-[867px]"
   >
     <div>
       <h2 class="font-semibold text-xl">
@@ -20,7 +20,7 @@
     </div>
     <div class="sm:relative">
       <img
-        class="min-w-180 min-h-[280px] sm:min-h-[440px] sm:min-w-[275px]"
+        class="min-w-180 min-h-[280px] sm:max-h-[440px] sm:max-w-[275px]"
         style="backdrop-filter: blur(4px)"
         src="@/assets/images/home/home-card.png"
         alt=""
