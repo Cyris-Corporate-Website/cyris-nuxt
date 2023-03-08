@@ -8,12 +8,12 @@
       height: 1632px;
     "
   >
-    <div class="grid grid-cols-2 items-center gap-32">
+    <div class="grid sm:grid-cols-2 items-center gap-32">
       <div class="space-y-12">
         <sub-heading color="white">What makes Cyris different?</sub-heading>
         <h2 class="text-xxl">Complete suite of services</h2>
       </div>
-      <div class="grid grid-cols-2 gap-8">
+      <div class="grid sm:grid-cols-2 gap-8">
         <SuiteCard text="Direct integrations" icon="Direct">
           <img src="@/assets/images/home/icons/Direct.svg" width="35" height="35" alt="" />
         </SuiteCard>

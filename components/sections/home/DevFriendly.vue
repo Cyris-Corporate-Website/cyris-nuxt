@@ -1,15 +1,7 @@
 <template>
-  <div
-    class="flex justify-center text-white"
-    style="
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 1632px;
-    "
-  >
+  <div class="flex justify-center items-center text-white min-h-[1632px]">
     <div>
-      <div class="grid grid-cols-2 gap-7">
+      <div class="grid sm:grid-cols-2 gap-7">
         <div>
           <sub-heading color="white">Best in Class Software</sub-heading>
           <h2 class="text-xxl mt-12 mb-1">Developer - friendly</h2>
@@ -37,14 +29,10 @@
         <!--  -->
         <div class="relative">
           <div
-            class="relative transparent-bg rounded-4xl"
-            style="min-height: 830px; max-width: 555px"
+            class="relative transparent-bg rounded-4xl sm:min-w-[555px] sm:min-h-[830px]"
           ></div>
           <div class="flex justify-center">
-            <div
-              class="absolute top-0 pt-12"
-              style="min-height: 830px; min-width: 471px"
-            >
+            <div class="absolute top-0 pt-12 sm:min-w-[471px] sm:min-h-[830px]">
               <div>
                 <div class="flex space-x-4 mb-4">
                   <img
@@ -80,8 +68,7 @@
         </div>
         <!--  -->
         <div
-          class="bg-violet relative p-12 rounded-4xl flex justify-center"
-          style="min-height: 830px; max-width: 555px"
+          class="bg-violet relative p-12 rounded-4xl flex justify-center sm:min-w-[555px] sm:min-h-[830px]"
         >
           <div>
             <div class="flex space-x-4 mb-4">

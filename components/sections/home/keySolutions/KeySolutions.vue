@@ -5,7 +5,7 @@
       ><br />
       that Cyris provides to its partners
     </h2>
-    <div class="flex justify-between items-start">
+    <div class="sm:flex justify-between items-start">
       <div class="space-y-20">
         <sub-heading color="black">Explore Our Solutions</sub-heading>
         <solution-heading>Card Scheme Connectivity</solution-heading>

@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-      <ball-container style="min-width: 1140px;"/>
+      <ball-container class="sm:min-w-[1140px]"/>
     </div>
   </div>
 </template>

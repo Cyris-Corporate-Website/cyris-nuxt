@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!isFooter" class="flex justify-between items-center">
+  <div v-if="!isFooter" class="grid grid-cols-4 sm:flex sm:justify-between items-center">
     <img
       :class="isFooter && 'footer-image'"
       src="@/assets/images/home/logos/VISA.svg"
@@ -61,7 +61,7 @@
       alt=""
     />
   </div>
-  <div v-if="isFooter" class="flex justify-between items-center space-x-16">
+  <div v-if="isFooter" class="grid grid-cols-4 sm:flex justify-between items-center space-x-16">
     <img
       :class="isFooter && 'footer-image'"
       src="@/assets/images/home/logos/dark/VISA.svg"

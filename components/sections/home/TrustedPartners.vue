@@ -1,10 +1,10 @@
 <template>
   <div class="pt-12 pb-36">
     <div class="mb-36">
-      <h4 class="text-md text-center mb-6">Trusted partners</h4>
+      <h4 class="text-md text-center mb-6 hidden sm:block">Trusted partners</h4>
       <partners />
     </div>
-    <div class="flex justify-between items-center">
+    <div class="flex flex-col-reverse sm:justify-between items-center">
       <img
         width="453px"
         height="282px"

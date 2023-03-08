@@ -1,7 +1,6 @@
 <template>
   <div
-    class="flex justify-between items-center my-auto max-w-layoutWidth w-full"
-    style="height: 867px"
+    class="flex flex-col-reverse sm:flex justify-between items-center my-auto max-w-layoutWidth w-full min-h-[867px]"
   >
     <div>
       <h2 class="font-semibold text-xl">
@@ -12,7 +11,6 @@
           >the <span class="font-bold">Future</span></span
         >
       </h2>
-
       <p class="font-body text-sm text-text-55 mt-4 mb-6">
         All-in-one payment processing for Financial<br />
         institutions, Electronic Money Institution<br />
@@ -20,13 +18,14 @@
       </p>
       <BaseButton variant="ghost">Get Started</BaseButton>
     </div>
-    <div class="relative">
+    <div class="sm:relative">
       <img
-        style="height: 440px; width: 275px; backdrop-filter: blur(4px)"
+        class="min-w-180 min-h-[280px] sm:min-h-[440px] sm:min-w-[275px]"
+        style="backdrop-filter: blur(4px)"
         src="@/assets/images/home/home-card.png"
         alt=""
       />
-      <div class="cube">
+      <div class="code-box">
         <lottie
           class="lottie"
           :options="defaultOptions"

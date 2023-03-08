@@ -3,7 +3,7 @@
     <div class="flex">
       <ball-video class="w-full h-full" />
       <div
-      class="rounded-r-3xl"
+      class="hidden sm:block rounded-r-3xl"
         style="
           width: 100%;
           background: #12183c 0% 0% no-repeat padding-box;

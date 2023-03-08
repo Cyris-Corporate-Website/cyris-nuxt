@@ -4,8 +4,7 @@
       autoplay
       loop
       muted
-      class="min-w-full max-w-none h-full w-full z-10 object-cover"
-      style="height: 867px"
+      class="min-w-full max-w-none w-full z-10 object-cover h-[867px]"
     >
       <source src="@/assets/videos/home.mp4" type="video/mp4" />
       Your browser does not support the video tag.

@@ -4,8 +4,7 @@
       autoplay
       loop
       muted
-      class="z-10 rounded-l-3xl object-cover"
-      style="min-height: 418px"
+      class="z-10 rounded-3xl sm:rounded-l-3xl min-h-[418px] object-cover"
     >
       <source src="@/assets/videos/contact-us.mp4" type="video/mp4" />
       Your browser does not support the video tag.
