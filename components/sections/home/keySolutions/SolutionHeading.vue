@@ -1,8 +1,8 @@
 <template>
   <div class="flex items-center space-x-6 group">
-    <h4 class="text-gray-400 text-md hover:text-gray-600 cursor-pointer">
+    <h3 class="text-gray-400 text-md hover:text-gray-600 cursor-pointer">
       <slot />
-    </h4>
+    </h3>
     <img
       class="text-gray-400 hidden group-hover:inline-block"
       src="@/assets/images/home/icons/arrow.svg"

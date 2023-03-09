@@ -1,10 +1,10 @@
 <template>
   <div class="text-xxs font-body text-text-55 py-24">
-    <div class="grid grid-cols-5 gap-20">
+    <div class="grid sm:grid-cols-5 gap-20">
       <div>
         <common-logo></common-logo>
         <p class="text-xxxs text-[#778CAC]">© 2022 All rights reserved</p>
-        <div class="flex items-baseline space-x-4 mt-3.5 mb-6">
+        <div class="hidden sm:flex items-baseline space-x-4 mt-3.5 mb-6">
           <h2 class="text-xs font-semibold font-sans text-white">
             Follow us on
           </h2>
@@ -55,8 +55,16 @@
         <h6>Guides</h6>
       </div>
     </div>
-    <hr class="border-[#353855] mt-9 mb-6" />
-    <div class="flex justify-between items-start">
+    <hr class="hidden sm:block border-[#353855] mt-9 mb-6" />
+    <div class="sm:hidden mt-3.5 mb-6">
+      <h2 class="text-xs font-semibold font-sans text-white">Follow us on</h2>
+      <div class="flex space-x-4 items-center">
+        <img src="@/assets/images/home/logos/linkedin.svg" alt="" />
+        <img src="@/assets/images/home/logos/Twitter.svg" alt="" />
+        <img src="@/assets/images/home/logos/facebook.svg" alt="" />
+      </div>
+    </div>
+    <div class="sm:flex justify-between items-start">
       <div>
         <h2 class="text-sm font-semibold font-sans text-white">Partners</h2>
         <partners section="footer" />

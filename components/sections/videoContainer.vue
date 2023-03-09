@@ -4,7 +4,7 @@
       autoplay
       loop
       muted
-      class="sm:min-w-full sm:max-w-none w-full z-10 object-cover min-h-[867px]"
+      class="sm:min-w-full sm:max-w-none w-full z-10 object-cover min-h-[843px] sm:min-h-[867px]"
     >
       <source src="@/assets/videos/home.mp4" type="video/mp4" />
       Your browser does not support the video tag.

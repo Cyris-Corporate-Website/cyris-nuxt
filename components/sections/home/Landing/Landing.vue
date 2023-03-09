@@ -1,22 +1,25 @@
 <template>
   <div
-    class="flex flex-col-reverse sm:flex-row justify-between items-center my-auto max-w-layoutWidth w-full min-h-[867px]"
+    class="flex flex-col-reverse justify-center sm:flex-row sm:justify-between items-center my-auto max-w-layoutWidth w-full min-h-[843px] sm:min-h-[867px]"
   >
     <div>
-      <h2 class="font-semibold text-xl">
+      <h2 class="font-semibold text-xl text-center sm:text-left mt-7 sm:mt-0">
         Bringing<br />
         Traditional Banking<br />
         into
         <span class="text-jade-100"
-          >the <span class="font-bold">Future</span></span
-        >
+          >the
+          <span class="font-bold">Future</span>
+        </span>
       </h2>
-      <p class="font-body text-sm text-text-55 mt-4 mb-6">
+      <p class="font-body text-sm text-text-55 mt-4 mb-12 sm:mb-6">
         All-in-one payment processing for Financial<br />
         institutions, Electronic Money Institution<br />
         (EMI) and progressive Fintech companies.
       </p>
-      <BaseButton variant="ghost">Get Started</BaseButton>
+      <div class="flex justify-center sm:block">
+        <BaseButton variant="ghost">Get Started</BaseButton>
+      </div>
     </div>
     <div class="sm:relative">
       <img

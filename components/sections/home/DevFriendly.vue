@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center text-white min-h-[1632px]">
+  <div class="flex justify-center items-center text-white min-h-max sm:min-h-[1632px]">
     <div>
       <div class="grid sm:grid-cols-2 gap-7">
         <div>

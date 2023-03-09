@@ -1,5 +1,8 @@
 <template>
-  <div v-if="!isFooter" class="grid grid-cols-4 sm:flex sm:justify-between items-center">
+  <div
+    v-if="!isFooter"
+    class="grid grid-cols-4 gap-20 sm:flex sm:justify-between items-center"
+  >
     <img
       :class="isFooter && 'footer-image'"
       src="@/assets/images/home/logos/VISA.svg"
@@ -61,7 +64,10 @@
       alt=""
     />
   </div>
-  <div v-if="isFooter" class="grid grid-cols-4 sm:flex sm:justify-between items-center space-x-16">
+  <div
+    v-if="isFooter"
+    class="grid grid-cols-4 sm:flex sm:justify-between items-center space-x-16"
+  >
     <img
       :class="isFooter && 'footer-image'"
       src="@/assets/images/home/logos/dark/VISA.svg"
@@ -199,5 +205,14 @@ const isFooter = props.section === 'footer'
 .footer-image {
   height: 25px;
   max-width: 39px;
+}
+/* sm */
+@media (max-width: 640px) {
+  img,
+  svg,
+  .footer-image {
+    max-width: 53px;
+    max-height: 30px;
+  }
 }
 </style>

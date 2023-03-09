@@ -1,7 +1,7 @@
 <template>
   <div class="pt-12 pb-36">
     <div class="mb-36">
-      <h4 class="text-md text-center mb-6 hidden sm:block">Trusted partners</h4>
+      <h3 class="text-md text-center mb-6 hidden sm:block">Trusted partners</h3>
       <partners />
     </div>
     <div class="flex flex-col-reverse sm:flex-row sm:justify-between items-center">
