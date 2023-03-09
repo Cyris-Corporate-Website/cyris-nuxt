@@ -1,5 +1,5 @@
 <template>
-  <!-- <div class="">
+  <div class="">
     <video
       autoplay
       loop
@@ -14,5 +14,5 @@
     <div class="text-white flex justify-center">
       <slot class="text-white z-50" />
     </div>
-  </div> -->
+  </div>
 </template>
