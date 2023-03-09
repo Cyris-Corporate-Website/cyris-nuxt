@@ -135,6 +135,9 @@ module.exports = {
         default: '12px',
         '4xl': '50px',
       },
+      inset: {
+        15: '3.75rem',
+      },
     },
   },
   plugins: [],

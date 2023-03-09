@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center sm:min-h-[1128px]">
+  <div class="flex justify-center items-center sm:min-h-[1128px] py-12 sm:py-0">
     <div>
       <div class="my-0 mx-auto sm:max-w-[870px]">
         <div>
