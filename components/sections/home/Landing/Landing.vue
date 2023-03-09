@@ -20,7 +20,7 @@
     </div>
     <div class="sm:relative">
       <img
-        class="min-w-180 min-h-[280px] sm:max-h-[440px] sm:max-w-[275px]"
+        class="max-w-180 max-h-[280px] sm:max-h-[440px] sm:max-w-[275px]"
         style="backdrop-filter: blur(4px)"
         src="@/assets/images/home/home-card.png"
         alt=""
