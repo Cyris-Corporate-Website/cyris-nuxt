@@ -14,7 +14,9 @@
       ></div>
     </div>
     <div class="flex justify-center">
-      <div class="text-center absolute top-16 sm:max-w-[390px]">
+      <div
+        class="text-center absolute top-1/4 px-6 sm:px-0 sm:top-16 sm:max-w-[390px]"
+      >
         <h2 class="text-md">
           Still not sure if Cyris is the right fit for you?
         </h2>
