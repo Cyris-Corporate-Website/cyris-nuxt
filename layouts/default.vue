@@ -8,7 +8,7 @@
     </div>
     <slot />
     <div class="flex justify-center bg-bgFooter bg-cover bg-no-repeat">
-      <CommonFooter class="sm:max-w-layoutWidth" />
+      <CommonFooter class="sm:max-w-layoutWidth px-3.5 sm:px-0" />
     </div>
   </div>
 </template>
