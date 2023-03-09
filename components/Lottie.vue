@@ -27,7 +27,6 @@ export default {
     }
   },
   mounted() {
-    console.log(this.style)
     this.anim = lottie.loadAnimation({
       container: this.$refs.lavContainer,
       renderer: 'svg',

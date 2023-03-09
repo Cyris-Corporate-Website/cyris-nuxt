@@ -2,7 +2,7 @@
   <div class="text-xxs font-body text-text-55 py-24">
     <div class="grid sm:grid-cols-5 gap-20">
       <div>
-        <common-logo></common-logo>
+        <common-logo />
         <p class="text-xxxs text-[#778CAC]">© 2022 All rights reserved</p>
         <div class="hidden sm:flex items-baseline space-x-4 mt-3.5 mb-6">
           <h2 class="text-xs font-semibold font-sans text-white">
