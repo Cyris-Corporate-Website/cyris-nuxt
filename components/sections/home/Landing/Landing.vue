@@ -21,16 +21,16 @@
         <BaseButton variant="ghost">Get Started</BaseButton>
       </div>
     </div>
-    <div class="sm:relative">
+    <div class="relative">
       <img
         class="max-w-180 max-h-[280px] sm:max-h-[440px] sm:max-w-[275px]"
         style="backdrop-filter: blur(4px)"
         src="@/assets/images/home/home-card.png"
         alt=""
       />
-      <div class="code-box z-50">
+      <div class="z-50">
         <lottie
-          class="lottie"
+          class="lottie absolute -left-10 bottom-2.5"
           :options="defaultOptions"
           v-on:animCreated="handleAnimation"
         />

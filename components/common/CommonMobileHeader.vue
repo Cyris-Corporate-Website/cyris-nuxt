@@ -53,5 +53,5 @@
   </nav>
 </template>
 <script setup>
-const isVisible = true
+const isVisible = ref(false)
 </script>
