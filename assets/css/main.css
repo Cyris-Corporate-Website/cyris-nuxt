@@ -23,15 +23,25 @@ body,
 #__nuxt {
   height: 100%;
 }
+/*  */
+.hide {
+  display: none;
+}
+/* .con-h + .hide {
+  display: none;
+} */
+.con-h:hover + .hide {
+  display: block;
+}
+/* .iss-h:hover + .hide {
+  display: block;
+} */
 .lottie {
   max-width: 162px;
   min-height: 188px;
   opacity: 90%;
   transform: perspective(95px) rotateX(0deg) rotateY(-5deg) rotateZ(3deg)
     skewY(2deg);
-}
-.code-box {
-  position: relative;
 }
 @media (max-width: 640px) {
   .lottie {
