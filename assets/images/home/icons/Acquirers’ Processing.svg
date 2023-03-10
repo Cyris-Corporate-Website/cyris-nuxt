@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.857" height="21" viewBox="0 0 13.857 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #01042b;
+      }
+    </style>
+  </defs>
+  <g id="Acquirers_Processing" data-name="Acquirers’ Processing" transform="translate(-3.5 -1.5)">
+    <path id="Rectangle_14900" data-name="Rectangle 14900" class="cls-1" d="M2-.5h8.857a2.5,2.5,0,0,1,2.5,2.5V18a2.5,2.5,0,0,1-2.5,2.5H2A2.5,2.5,0,0,1-.5,18V2A2.5,2.5,0,0,1,2-.5Zm8.857,20a1.5,1.5,0,0,0,1.5-1.5V2a1.5,1.5,0,0,0-1.5-1.5H2A1.5,1.5,0,0,0,.5,2V18A1.5,1.5,0,0,0,2,19.5Z" transform="translate(4 2)"/>
+    <rect id="Rectangle_14910" data-name="Rectangle 14910" class="cls-1" width="7.143" height="4.286" rx="1" transform="translate(6.857 4.857)"/>
+    <rect id="Rectangle_14914" data-name="Rectangle 14914" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(9.714 17)"/>
+    <rect id="Rectangle_14923" data-name="Rectangle 14923" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(9.714 11)"/>
+    <rect id="Rectangle_14920" data-name="Rectangle 14920" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(9.714 14)"/>
+    <rect id="Rectangle_14918" data-name="Rectangle 14918" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(6.857 17)"/>
+    <rect id="Rectangle_14922" data-name="Rectangle 14922" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(6.857 11)"/>
+    <rect id="Rectangle_14921" data-name="Rectangle 14921" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(6.857 14)"/>
+    <rect id="Rectangle_14917" data-name="Rectangle 14917" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(12.571 17)"/>
+    <rect id="Rectangle_14924" data-name="Rectangle 14924" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(12.571 11)"/>
+    <rect id="Rectangle_14919" data-name="Rectangle 14919" class="cls-1" width="1.429" height="1.429" rx="0.714" transform="translate(12.571 14)"/>
+  </g>
+</svg>

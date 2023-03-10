@@ -24,8 +24,8 @@ const buttonClass = {
 }
 const buttonHeight = {
   undefined: 'min-w-150 h-50',
-  big: 'min-w-150 h-55',
   medium: 'min-w-150 h-50',
+  big: 'min-w-150 h-55',
 }
 const disabledClass = {
   undefined: '',

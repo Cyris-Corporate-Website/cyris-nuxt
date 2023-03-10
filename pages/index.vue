@@ -1,20 +1,28 @@
 <template>
   <video-container class="relative">
-    <landing class="absolute top-0 z-50 px-10 sm:px-0" />
+    <landing class="absolute top-0 z-20 px-10 sm:px-0" />
   </video-container>
-  <section-container class="bg-bgTrustedPartners bg-cover bg-no-repeat px-10 sm:px-0">
+  <section-container
+    class="bg-bgTrustedPartners bg-cover bg-no-repeat px-10 sm:px-0"
+  >
     <trusted-partners />
   </section-container>
-  <section-container class="bg-bgKeySolutions bg-cover bg-no-repeat px-10 sm:px-0">
+  <section-container
+    class="bg-bgKeySolutions bg-cover bg-no-repeat px-10 sm:px-0"
+  >
     <key-solutions />
   </section-container>
-  <section-container class="bg-bgDevFriendly bg-cover bg-no-repeat px-10 sm:px-0">
+  <section-container
+    class="bg-bgDevFriendly bg-cover bg-no-repeat px-10 sm:px-0"
+  >
     <dev-friendly />
   </section-container>
   <section-container class="bg-bgTopChoice bg-cover bg-no-repeat px-10 sm:px-0">
     <top-choice />
   </section-container>
-  <section-container class="bg-bgCompleteSuite bg-cover bg-no-repeat px-10 sm:px-0">
+  <section-container
+    class="bg-bgCompleteSuite bg-cover bg-no-repeat px-10 sm:px-0"
+  >
     <suite-of-services />
   </section-container>
   <section-container class="bg-bg3steps bg-cover bg-no-repeat px-10 sm:px-0">
