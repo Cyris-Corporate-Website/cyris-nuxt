@@ -19,7 +19,7 @@
           class=""
           width="555px"
           height="600px"
-          src="@/assets/images/home/Card-Scheme-Connectivity.png"
+          src="@/assets/images/home/card-connectivity.png"
           alt=""
         />
         <div class="absolute bottom-12 mx-12 space-y-6">
