@@ -1,34 +1,44 @@
 <template>
-  <div>
-    <!-- <select
-      :class="classes"
-      :type="type"
-      :disabled="disabled"
-      :required="required"
-      :placeholder="placeholder"
-      class="rounded-default text-sm border border-gray-400 text-text-300 py-11 px-15 focus:border focus:border-gray-600 focus:outline-none"
-      id="cars"
-    >
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="opel">Opel</option>
-      <option value="audi">Audi</option>
-    </select> -->
-    <div
-      class="flex justify-between items-center rounded-default text-sm border border-gray-400 text-text-300 py-11 px-15 focus:border focus:border-gray-600 focus:outline-none max-w-[190px]"
-    >
-      <div>
-        <!-- icon -->
-      </div>
+  <div class="w-full px-4 pt-16">
+    <div class="mx-auto w-full max-w-md rounded-2xl bg-white p-2">
+      <Disclosure v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+        >
+          <span>What is your refund policy?</span>
+          <img
+            src="@/assets/images/home/icons/chevron-black.svg"
+            :class="open ? 'rotate-180 transform' : ''"
+            class="h-5 w-5 text-purple-500"
+            alt=""
+          />
+        </DisclosureButton>
+        <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-gray-500">
+          If you're unhappy with your purchase for any reason, email us within
+          90 days and we'll refund you in full, no questions asked.
+        </DisclosurePanel>
+      </Disclosure>
+      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75"
+        >
+          <span>Do you offer technical support?</span>
+          <img
+            src="@/assets/images/home/icons/chevron-black.svg"
+            :class="open ? 'rotate-180 transform' : ''"
+            class="h-5 w-5 text-purple-500"
+            alt=""
+          />
+        </DisclosureButton>
+        <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-gray-500">
+          No.
+        </DisclosurePanel>
+      </Disclosure>
     </div>
   </div>
 </template>
 
 <script setup>
-const props = defineProps(['type', 'disabled', 'placeholder', 'required'])
-
-const disabledClass = {
-  undefined: '',
-  true: 'bg-gray-200 cursor-not-allowed',
-}
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
+const props = defineProps(['open'])
 </script>

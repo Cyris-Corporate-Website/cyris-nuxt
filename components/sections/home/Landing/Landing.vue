@@ -28,7 +28,7 @@
         src="@/assets/images/home/home-card.png"
         alt=""
       />
-      <div class="code-box">
+      <div class="code-box z-50">
         <lottie
           class="lottie"
           :options="defaultOptions"

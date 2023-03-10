@@ -12,9 +12,15 @@
     >
       <div class="flex flex-col justify-between">
         <div class="px-4 flex justify-between items-center w-full">
-          <common-logo class="mr-5" />
-          <img src="@/assets/images/home/icons/chevron-black.svg" alt="" />
+          <common-logo :dark="true" class="mr-5" />
+          <img
+            @click="isVisible = !isVisible"
+            class="cursor-pointer"
+            src="@/assets/images/home/mobileHeader/Group-172636.svg"
+            alt=""
+          />
         </div>
+        <base-dropdown> </base-dropdown>
         <div>
           <common-nav-link class="px-6 flex justify-between items-center">
             <h2>Services</h2>
