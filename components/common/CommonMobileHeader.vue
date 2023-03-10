@@ -13,26 +13,26 @@
       <div class="flex flex-col justify-between">
         <div class="px-4 flex justify-between items-center w-full">
           <common-logo class="mr-5" />
-          <img src="@/assets/images/home/icons/>-black.svg" alt="" />
+          <img src="@/assets/images/home/icons/chevron-black.svg" alt="" />
         </div>
         <div>
           <common-nav-link class="px-6 flex justify-between items-center">
             <h2>Services</h2>
-            <img src="@/assets/images/home/icons/>-black.svg" alt=""
+            <img src="@/assets/images/home/icons/chevron-black.svg" alt=""
           /></common-nav-link>
           <common-nav-link class="px-6 flex justify-between items-center">
             <h2>Platform</h2>
             <img
-              src="@/assets/images/home/icons/>-black.svg"
+              src="@/assets/images/home/icons/chevron-black.svg"
               alt="" /></common-nav-link
           ><common-nav-link class="px-6 flex justify-between items-center">
             <h2>Company</h2>
             <img
-              src="@/assets/images/home/icons/>-black.svg"
+              src="@/assets/images/home/icons/chevron-black.svg"
               alt="" /></common-nav-link
           ><common-nav-link class="px-6 flex justify-between items-center">
             <h2>Developers</h2>
-            <img src="@/assets/images/home/icons/>-black.svg" alt=""
+            <img src="@/assets/images/home/icons/chevron-black.svg" alt=""
           /></common-nav-link>
         </div>
         <div class="flex justify-center text-center">
@@ -47,5 +47,5 @@
   </nav>
 </template>
 <script setup>
-const isVisible = false
+const isVisible = true
 </script>
