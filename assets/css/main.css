@@ -15,7 +15,7 @@ html {
 /* sm */
 @media (max-width: 640px) {
   html {
-    font-size: 10.3px;
+    font-size: 10.5px;
   }
 }
 html,
@@ -23,19 +23,6 @@ body,
 #__nuxt {
   height: 100%;
 }
-/*  */
-.hide {
-  display: none;
-}
-/* .con-h + .hide {
-  display: none;
-} */
-.con-h:hover + .hide {
-  display: block;
-}
-/* .iss-h:hover + .hide {
-  display: block;
-} */
 .lottie {
   max-width: 162px;
   min-height: 188px;

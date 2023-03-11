@@ -1,9 +1,9 @@
 <template>
-  <div class="text-xxs font-body text-text-55 py-24">
+  <div class="text-2xs font-body text-text-55 py-24">
     <div class="grid sm:grid-cols-5 gap-20">
       <div>
         <common-logo />
-        <p class="text-xxxs text-[#778CAC]">© 2022 All rights reserved</p>
+        <p class="text-3xs text-[#778CAC]">© 2022 All rights reserved</p>
         <div class="hidden sm:flex items-baseline space-x-4 mt-3.5 mb-6">
           <h2 class="text-xs font-semibold font-sans text-white">
             Follow us on
@@ -71,7 +71,7 @@
       </div>
       <div>
         <h2 class="text-sm font-semibold font-sans text-white">Legal</h2>
-        <div class="flex justify-between items-center space-x-5 text-xxxs">
+        <div class="flex justify-between items-center space-x-5 text-3xs">
           <h6>Privacy policy</h6>
           <h6>Terms and Conditions</h6>
           <h6>Cookie policy</h6>

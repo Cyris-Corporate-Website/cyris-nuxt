@@ -40,14 +40,14 @@ module.exports = {
       },
     },
     fontSize: {
-      xxxs: [
+      '3xs': [
         '0.75rem' /* 12px */,
         {
           lineHeight: '1.2rem',
           fontWeight: '400',
         },
       ],
-      xxs: [
+      '2xs': [
         '0.87rem' /* 14px */,
         {
           lineHeight: '1.2rem',
@@ -96,7 +96,7 @@ module.exports = {
           fontWeight: '400',
         },
       ],
-      xxl: [
+      '2xl': [
         '3.68rem', //59px
         {
           lineHeight: '4.5rem',

@@ -3,7 +3,7 @@
     <div class="grid sm:grid-cols-2 items-center gap-32">
       <div class="space-y-12">
         <sub-heading color="white">What makes Cyris different?</sub-heading>
-        <h2 class="text-xxl text-center sm:text-left">
+        <h2 class="text-2xl text-center sm:text-left">
           Complete suite of services
         </h2>
       </div>

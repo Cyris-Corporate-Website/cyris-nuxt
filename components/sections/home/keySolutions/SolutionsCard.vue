@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="w-[555px] h-[600px]">
+    <div class="max-w-[555px] max-h-[600px]">
       <slot name="img"></slot>
     </div>
     <div class="absolute bottom-0 mx-12 space-y-6">

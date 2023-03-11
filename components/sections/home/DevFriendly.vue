@@ -1,10 +1,12 @@
 <template>
-  <div class="flex justify-center items-center text-white min-h-max sm:min-h-[1632px]">
+  <div
+    class="flex justify-center items-center text-white min-h-max sm:min-h-[1632px] py-12"
+  >
     <div>
-      <div class="grid sm:grid-cols-2 gap-7">
+      <div class="grid sm:grid-cols-2 gap-7 text-center sm:text-left ">
         <div>
           <sub-heading color="white">Best in Class Software</sub-heading>
-          <h2 class="text-xxl mt-12 mb-1">Developer - friendly</h2>
+          <h2 class="text-2xl mt-12 mb-1">Developer - friendly</h2>
           <p class="text-sm text-text-55 mb-9 font-body">
             Our APIs are ultra-flexible and low code for<br />
             ease of integration, significantly decreasing<br />

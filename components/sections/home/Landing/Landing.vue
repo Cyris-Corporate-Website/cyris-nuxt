@@ -12,7 +12,7 @@
           <span class="font-bold">Future</span>
         </span>
       </h2>
-      <p class="font-body text-sm text-text-55 mt-4 mb-12 sm:mb-6">
+      <p class="text-center sm:text-left font-body text-sm text-text-55 mt-4 mb-12 sm:mb-6">
         All-in-one payment processing for Financial<br />
         institutions, Electronic Money Institution<br />
         (EMI) and progressive Fintech companies.

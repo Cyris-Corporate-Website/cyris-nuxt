@@ -2,14 +2,23 @@
   <div class="sm:flex justify-between items-start">
     <div class="space-y-20">
       <sub-heading color="black">Explore Our Solutions</sub-heading>
-      <solution-heading class="con-h">Card Scheme Connectivity</solution-heading>
-      <solution-heading class="acq-h">Acquirers’ Processing</solution-heading>
-      <solution-heading class="iss-h">Issuers’ Processing</solution-heading>
-      <solution-heading class="cle-h">Clearing and Sattlement</solution-heading>
-      <solution-heading class="sec-h">Security and compliance</solution-heading>
+      <solution-heading @mouseover="cardNumber = 0"
+        >Card Scheme Connectivity</solution-heading
+      >
+      <solution-heading @mouseover="cardNumber = 1"
+        >Acquirers’ Processing</solution-heading
+      >
+      <solution-heading @mouseover="cardNumber = 2"
+        >Issuers’ Processing</solution-heading
+      >
+      <solution-heading @mouseover="cardNumber = 3"
+        >Clearing and Sattlement</solution-heading
+      >
+      <solution-heading @mouseover="cardNumber = 4"
+        >Security and compliance</solution-heading
+      >
     </div>
-
-    <SolutionsCard class="hide">
+    <SolutionsCard v-show="cardNumber == 0">
       <template #img
         ><img src="@/assets/images/home/card-connectivity.png" alt=""
       /></template>
@@ -19,8 +28,8 @@
         authorize operations in real time.</template
       >
     </SolutionsCard>
-<!-- 
-    <SolutionsCard class="hide">
+
+    <SolutionsCard v-show="cardNumber == 1">
       <template #img
         ><img src="@/assets/images/home/POS.png" alt=""
       /></template>
@@ -30,7 +39,7 @@
       >
     </SolutionsCard>
 
-    <SolutionsCard class="hide">
+    <SolutionsCard v-show="cardNumber == 2">
       <template #img
         ><img src="@/assets/images/home/Issuers’-Processing.png" alt=""
       /></template>
@@ -41,7 +50,7 @@
       >
     </SolutionsCard>
 
-    <SolutionsCard class="hide">
+    <SolutionsCard v-show="cardNumber == 3">
       <template #img
         ><img src="@/assets/images/home/Clearing-and-Sattlement.png" alt=""
       /></template>
@@ -51,7 +60,7 @@
       >
     </SolutionsCard>
 
-    <SolutionsCard class="hide">
+    <SolutionsCard v-show="cardNumber == 4">
       <template #img
         ><img src="@/assets/images/home/key-lock.png" alt=""
       /></template>
@@ -61,11 +70,12 @@
         accurate, resilient, and PCI-compliant authorization and settlement
         processing.</template
       >
-    </SolutionsCard> -->
+    </SolutionsCard>
   </div>
 </template>
 <script setup>
 import SubHeading from '@/components/sections/home/components/SubHeading.vue'
 import SolutionHeading from './SolutionHeading.vue'
 import SolutionsCard from './SolutionsCard.vue'
+const cardNumber = ref(0)
 </script>
