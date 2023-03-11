@@ -10,7 +10,7 @@
       :class="bgColor[text]"
     >
       <slot />
-      <p class="group-hover:translate-y-1 sm:max-w-[8rem] group-hover:animate-fade-in">{{ text }}</p>
+      <p class="sm:max-w-[8rem] group-hover:animate-fade-in">{{ text }}</p>
       <p
         class="hidden group-hover:inline-block group-hover:animate-fade-in text-white font-body text-2xs"
       >

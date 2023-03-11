@@ -3,7 +3,7 @@
     <div class="flex justify-center">
       <CommonHeader class="hidden sm:flex absolute top-11 max-w-layoutWidth" />
       <CommonMobileHeader
-        class="sm:hidden absolute top-0 pt-11 max-w-layoutWidth px-3.5"
+        class="sm:hidden fixed top-0 pt-11 max-w-layoutWidth px-3.5"
       />
     </div>
     <slot />

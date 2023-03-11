@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex justify-center items-center text-white min-h-max sm:min-h-[1632px] py-12"
+    class="sm:flex justify-center items-center text-white min-h-max sm:min-h-[1632px] py-12"
   >
     <div>
-      <div class="grid sm:grid-cols-2 gap-7 text-center sm:text-left ">
-        <div>
+      <div class="grid sm:grid-cols-2 gap-7">
+        <div class="text-center sm:text-left">
           <sub-heading color="white">Best in Class Software</sub-heading>
           <h2 class="text-2xl mt-12 mb-1">Developer - friendly</h2>
           <p class="text-sm text-text-55 mb-9 font-body">
@@ -15,7 +15,7 @@
               >In short, Devs love us!</span
             >
           </p>
-          <BaseButton variant="ghost">
+          <BaseButton variant="ghost" class="mb-14 sm:mb-0">
             <div class="flex items-center space-x-2">
               <img src="@/assets/images/home/icons/sandbox.svg" alt="" />
               <p>Sign up for sandbox</p>
@@ -34,7 +34,9 @@
             class="relative transparent-bg rounded-4xl sm:min-w-[555px] sm:min-h-[830px]"
           ></div>
           <div class="flex justify-center">
-            <div class="absolute top-0 pt-12 sm:min-w-[471px] sm:min-h-[830px]">
+            <div
+              class="sm:absolute top-0 pt-12 sm:min-w-[471px] sm:min-h-[830px]"
+            >
               <div>
                 <div class="flex space-x-4 mb-4">
                   <img
@@ -62,7 +64,7 @@
                 </p>
                 <CommonReadMore text="Read More" />
               </div>
-              <div class="absolute bottom-0">
+              <div class="sm:absolute bottom-0">
                 <img src="@/assets/images/home/API.png" alt="" />
               </div>
             </div>
@@ -70,7 +72,7 @@
         </div>
         <!--  -->
         <div
-          class="bg-violet relative p-12 rounded-4xl flex justify-center sm:min-w-[555px] sm:min-h-[830px]"
+          class="sm:bg-violet relative p-12 rounded-4xl flex justify-center sm:min-w-[555px] sm:min-h-[830px]"
         >
           <div>
             <div class="flex space-x-4 mb-4">
@@ -98,7 +100,7 @@
             </p>
             <CommonReadMore text="Explore" />
           </div>
-          <div class="absolute bottom-0">
+          <div class="sm:absolute bottom-0">
             <img
               src="@/assets/images/home/CMS.png"
               width="454"

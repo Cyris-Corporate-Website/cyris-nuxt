@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center sm:min-h-[1632px] text-white">
-    <div class="grid sm:grid-cols-2 items-center gap-32">
+    <div class="grid sm:grid-cols-2 items-center gap-32 py-14 sm:py-0">
       <div class="space-y-12">
         <sub-heading color="white">What makes Cyris different?</sub-heading>
         <h2 class="text-2xl text-center sm:text-left">
