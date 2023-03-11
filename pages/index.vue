@@ -17,7 +17,9 @@
   >
     <dev-friendly />
   </section-container>
-  <section-container class="bg-bgTopChoice bg-cover bg-no-repeat px-10 sm:px-0">
+  <section-container
+    class="bg-bgTopChoice bg-cover bg-no-repeat px-10 sm:px-0 bg-[#12142D]"
+  >
     <top-choice />
   </section-container>
   <section-container
