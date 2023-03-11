@@ -138,6 +138,20 @@ module.exports = {
       inset: {
         15: '3.75rem',
       },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '20%': { opacity: '50' },
+        },
+        fadeOut: {
+          '0%': { opacity: '50' },
+          '20%': { opacity: '0' },
+        },
+      },
+      animation: {
+        'fade-in': 'fadeIn 2s ease-in-out',
+        'fade-out': 'fadeOut 2s ease-in-out',
+      },
     },
   },
   plugins: [],

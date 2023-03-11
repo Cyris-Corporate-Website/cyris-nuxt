@@ -2,19 +2,19 @@
   <div class="sm:flex justify-between items-start">
     <div class="space-y-20">
       <sub-heading color="black">Explore Our Solutions</sub-heading>
-      <solution-heading @mouseover="cardNumber = 0"
+      <solution-heading @mouseover="switchCard(0)"
         >Card Scheme Connectivity</solution-heading
       >
-      <solution-heading @mouseover="cardNumber = 1"
+      <solution-heading @mouseover="switchCard(1)"
         >Acquirers’ Processing</solution-heading
       >
-      <solution-heading @mouseover="cardNumber = 2"
+      <solution-heading @mouseover="switchCard(2)"
         >Issuers’ Processing</solution-heading
       >
-      <solution-heading @mouseover="cardNumber = 3"
+      <solution-heading @mouseover="switchCard(3)"
         >Clearing and Sattlement</solution-heading
       >
-      <solution-heading @mouseover="cardNumber = 4"
+      <solution-heading @mouseover="switchCard(4)"
         >Security and compliance</solution-heading
       >
     </div>
@@ -78,4 +78,7 @@ import SubHeading from '@/components/sections/home/components/SubHeading.vue'
 import SolutionHeading from './SolutionHeading.vue'
 import SolutionsCard from './SolutionsCard.vue'
 const cardNumber = ref(0)
+const switchCard = (cn) => {
+  cardNumber.value = cn
+}
 </script>
