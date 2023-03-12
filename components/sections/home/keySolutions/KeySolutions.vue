@@ -5,9 +5,11 @@
       ><br />
       that Cyris provides to its partners
     </h2>
-    <SolutionsContainer />
+    <SolutionsContainer class="hidden sm:block" />
+    <SolutionsContainerMobile class="sm:hidden" />
   </div>
 </template>
 <script setup>
 import SolutionsContainer from './SolutionsContainer.vue'
+import SolutionsContainerMobile from './SolutionsContainerMobile.vue'
 </script>

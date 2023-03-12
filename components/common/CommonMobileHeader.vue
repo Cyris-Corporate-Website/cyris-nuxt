@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full z-30 pb-11" :class="aboveTrustedPartners && 'bg-white'">
+  <nav class="w-full z-30 px-3.5 pt-5 pb-5" :class="aboveTrustedPartners && 'bg-white'">
     <div
       v-show="!aboveTrustedPartners"
       class="flex justify-between items-center w-full"
@@ -33,7 +33,7 @@
           />
         </div>
         <base-dropdown>
-          <template #header>Services</template>
+          <template #heading>Services</template>
           <template #items>
             <div class="space-y-3.5">
               <div class="flex items-end space-x-5">
@@ -75,7 +75,7 @@
           </template>
         </base-dropdown>
         <base-dropdown>
-          <template #header>Platform</template>
+          <template #heading>Platform</template>
           <template #items>
             <div class="space-y-3.5">
               <div class="flex items-end space-x-5">
@@ -90,7 +90,7 @@
           </template>
         </base-dropdown>
         <base-dropdown>
-          <template #header>Company</template>
+          <template #heading>Company</template>
           <template #items>
             <div class="space-y-3.5">
               <div class="flex items-end space-x-5">

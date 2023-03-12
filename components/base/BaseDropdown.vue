@@ -1,12 +1,15 @@
 <template>
   <div class="w-full px-4">
-    <div class="w-full rounded-2xl bg-white p-2 font-body">
+    <div
+      class="w-full rounded-2xl bg-white p-2 font-body"
+      :class="additionalClasses"
+    >
       <Disclosure v-slot="{ open }">
         <DisclosureButton
           class="flex w-full justify-between py-2 text-left text-sm"
         >
           <common-nav-link class="font-semibold">
-            <slot name="header" />
+            <slot name="heading" />
           </common-nav-link>
           <img
             src="@/assets/images/home/icons/chevron-black.svg"
@@ -25,5 +28,5 @@
 
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-const props = defineProps(['open'])
+const props = defineProps(['open', 'additionalClasses'])
 </script>
