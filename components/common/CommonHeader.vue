@@ -8,7 +8,7 @@
       <common-nav-link @mouseover="hoverLink(1)">Services</common-nav-link>
       <common-nav-link @mouseover="hoverLink(2)">Platform</common-nav-link>
       <common-nav-link @mouseover="hoverLink(3)">Company</common-nav-link>
-      <common-nav-link>Developers</common-nav-link>
+      <common-nav-link @mouseover="unhover()">Developers</common-nav-link>
     </div>
     <div
       v-show="hoveredLink == 1"
