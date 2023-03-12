@@ -1,9 +1,21 @@
 <template>
-  <nav class="w-full z-30">
-    <div class="flex justify-between items-center w-full text-white">
+  <nav class="w-full z-30 pb-11" :class="aboveTrustedPartners && 'bg-white'">
+    <div
+      v-show="!aboveTrustedPartners"
+      class="flex justify-between items-center w-full"
+    >
       <common-logo class="mr-5" />
       <div class="relative cursor-pointer" @click="isVisible = !isVisible">
         <img src="@/assets/images/home/icons/hamburger.svg" alt="" />
+      </div>
+    </div>
+    <div
+      v-show="aboveTrustedPartners"
+      class="flex justify-between items-center w-full"
+    >
+      <common-logo :dark="true" class="mr-5" />
+      <div class="relative cursor-pointer" @click="isVisible = !isVisible">
+        <img src="@/assets/images/home/icons/hamburger-green.svg" alt="" />
       </div>
     </div>
     <div
@@ -122,4 +134,5 @@
 </template>
 <script setup>
 const isVisible = ref(false)
+const props = defineProps(['aboveTrustedPartners'])
 </script>

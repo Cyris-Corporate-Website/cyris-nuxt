@@ -8,7 +8,7 @@
     <trusted-partners />
   </section-container>
   <section-container
-    class="bg-bgKeySolutions bg-cover bg-no-repeat px-10 sm:px-0"
+    class="bg-bgKeySolutions bg-cover bg-no-repeat px-10 sm:px-0 bg-[#12142D]"
   >
     <key-solutions />
   </section-container>
