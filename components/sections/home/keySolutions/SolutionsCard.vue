@@ -10,7 +10,11 @@
       <BaseButton class="hidden sm:block" variant="ghost"
         >Learn more</BaseButton
       >
-      <Common-Read-More class="sm:hidden" text="Learn More" color="text-white" />
+      <Common-Read-More
+        class="sm:hidden"
+        text="Learn More"
+        color="text-white"
+      />
     </div>
   </div>
 </template>

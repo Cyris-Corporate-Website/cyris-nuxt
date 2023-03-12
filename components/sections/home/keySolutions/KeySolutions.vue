@@ -5,7 +5,7 @@
       ><br />
       that Cyris provides to its partners
     </h2>
-    <SolutionsContainer class="hidden sm:block" />
+    <SolutionsContainer class="hidden sm:flex" />
     <SolutionsContainerMobile class="sm:hidden" />
   </div>
 </template>

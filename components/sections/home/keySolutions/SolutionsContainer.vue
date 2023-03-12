@@ -3,18 +3,18 @@
     <div class="space-y-20">
       <sub-heading color="black">Explore Our Solutions</sub-heading>
       <div v-for="card in solutionCards" :key="card.id">
-        <solution-heading @mouseover="switchCard(card.id)">{{
-          card.heading
-        }}</solution-heading>
+        <solution-heading @mouseover="switchCard(card.id)">
+          {{ card.heading }}
+        </solution-heading>
       </div>
     </div>
-    <div v-for="card in solutionCards" :key="card.id">
-      <SolutionsCard
-        v-show="cardNumber == card.id"
-        :description="card.description"
-        :img-name="card.imgName"
-      />
-    </div>
+    <SolutionsCard
+      v-for="card in solutionCards"
+      :key="card.id"
+      v-show="cardNumber == card.id"
+      :description="card.description"
+      :img-name="card.imgName"
+    />
   </div>
 </template>
 <script setup>
