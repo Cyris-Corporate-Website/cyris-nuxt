@@ -67,7 +67,7 @@
     <div class="sm:flex justify-between items-start">
       <div>
         <h2 class="text-sm font-semibold font-sans text-white">Partners</h2>
-        <partners section="footer" />
+        <partners :theme="dark" />
       </div>
       <div>
         <h2 class="text-sm font-semibold font-sans text-white">Legal</h2>

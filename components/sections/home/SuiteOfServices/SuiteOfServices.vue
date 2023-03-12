@@ -19,7 +19,7 @@
               height="35"
               alt=""
             />
-            <Partners />
+            <Partners :theme="dark" size="small" />
           </div>
         </SuiteCard>
         <SuiteCard

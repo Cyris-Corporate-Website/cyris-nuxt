@@ -1,5 +1,8 @@
 <template>
-  <nav class="w-full z-30 px-3.5 pt-5 pb-5" :class="aboveTrustedPartners && 'bg-white'">
+  <nav
+    class="w-full z-30 px-3.5 pt-5 pb-5"
+    :class="aboveTrustedPartners && 'bg-white'"
+  >
     <div
       v-show="!aboveTrustedPartners"
       class="flex justify-between items-center w-full"
@@ -13,7 +16,7 @@
       v-show="aboveTrustedPartners"
       class="flex justify-between items-center w-full"
     >
-      <common-logo :dark="true" class="mr-5" />
+      <common-logo :theme="dark" class="mr-5" />
       <div class="relative cursor-pointer" @click="isVisible = !isVisible">
         <img src="@/assets/images/home/icons/hamburger-green.svg" alt="" />
       </div>
@@ -24,7 +27,7 @@
     >
       <div>
         <div class="px-4 py-5 flex justify-between items-center w-full">
-          <common-logo :dark="true" class="mr-5" />
+          <common-logo :theme="dark" class="mr-5" />
           <img
             @click="isVisible = !isVisible"
             class="cursor-pointer"
